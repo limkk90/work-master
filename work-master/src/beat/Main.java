@@ -11,6 +11,9 @@ public class Main {
 		System.out.println("SI B AL ");
 		System.out.println("¾Æ no mu hthg");
 		System.out.println("meojoong");
+		for(int i=0; i<10; i++) {
+			System.out.println("ya :" + i);
+		}
 
 	}
 
