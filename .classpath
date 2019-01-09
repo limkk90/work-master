@@ -2,5 +2,6 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="work-master/src"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Downloads/jlayer1.0.1/JLayer1.0.1/jl1.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
