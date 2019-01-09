@@ -14,6 +14,7 @@ public class Main {
 		for(int i=0; i<10; i++) {
 			System.out.println("ya :" + i);
 		}
+		System.out.println("n o Si 8");
 
 	}
 
