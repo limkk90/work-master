@@ -7,7 +7,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		new Mp3();
-		//작업 시작
+		//ProJect Start!!!
 
 	}
 
