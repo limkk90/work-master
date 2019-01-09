@@ -9,6 +9,7 @@ public class Main {
 		new Mp3();
 		System.out.println("되라고 시발");
 		System.out.println("SI B AL ");
+		System.out.println("아 no mu hthg");
 
 	}
 
