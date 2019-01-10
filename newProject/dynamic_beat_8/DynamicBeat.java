@@ -21,15 +21,13 @@ public class DynamicBeat extends JFrame {
 
 	private ImageIcon exitButtonEnteredImage = new ImageIcon(Main.class.getResource("../images/exitButtonEntered.png"));
 	private ImageIcon exitButtonBasicImage = new ImageIcon(Main.class.getResource("../images/exitButtonBasic.png"));
-	private ImageIcon startButtonEnteredImage = new ImageIcon(
-			Main.class.getResource("../images/startButtonEntered.png"));
+	private ImageIcon startButtonEnteredImage = new ImageIcon(Main.class.getResource("../images/startButtonEntered.png"));
 	private ImageIcon startButtonBasicImage = new ImageIcon(Main.class.getResource("../images/startButtonBasic.png"));
 	private ImageIcon quitButtonEnteredImage = new ImageIcon(Main.class.getResource("../images/quitButtonEntered.png"));
 	private ImageIcon quitButtonBasicImage = new ImageIcon(Main.class.getResource("../images/quitButtonBasic.png"));
 	private ImageIcon leftButtonEnteredImage = new ImageIcon(Main.class.getResource("../images/leftButtonEntered.png"));
 	private ImageIcon leftButtonBasicImage = new ImageIcon(Main.class.getResource("../images/leftButtonBasic.png"));
-	private ImageIcon rightButtonEnteredImage = new ImageIcon(
-			Main.class.getResource("../images/rightButtonEntered.png"));
+	private ImageIcon rightButtonEnteredImage = new ImageIcon(Main.class.getResource("../images/rightButtonEntered.png"));
 	private ImageIcon rightButtonBasicImage = new ImageIcon(Main.class.getResource("../images/rightButtonBasic.png"));
 	private ImageIcon easyButtonEnteredImage = new ImageIcon(Main.class.getResource("../images/sibal2.png"));
 	private ImageIcon easyButtonBasicImage = new ImageIcon(Main.class.getResource("../images/sibal.png"));
@@ -37,7 +35,7 @@ public class DynamicBeat extends JFrame {
 	private ImageIcon hardButtonBasicImage = new ImageIcon(Main.class.getResource("../images/ses.png"));
 	private ImageIcon backButtonBasicImage = new ImageIcon(Main.class.getResource("../images/backButtonBasic.png"));
 	private ImageIcon backButtonEnteredImage = new ImageIcon(Main.class.getResource("../images/backButtonEntered.png"));
-
+	private ImageIcon mainTitle = new ImageIcon(Main.class.getResource("../images/mainTitle.png"));
 	private Image background = new ImageIcon(Main.class.getResource("../images/Title Image.png")).getImage();
 
 	private JLabel menuBar = new JLabel(new ImageIcon(Main.class.getResource("../images/menuBar.png")));
@@ -65,7 +63,7 @@ public class DynamicBeat extends JFrame {
 	public DynamicBeat() {
 
 		setUndecorated(true);
-		setTitle("Dynamic Beat");
+		setTitle("Sejin's Music");
 		setSize(Main.SCREEN_WIDTH, Main.SCREEN_HEIGHT);
 		setResizable(false);
 		setLocationRelativeTo(null);
@@ -73,6 +71,8 @@ public class DynamicBeat extends JFrame {
 		setVisible(true);
 		setBackground(new Color(0, 0, 0, 0));
 		setLayout(null);
+		
+		
 
 		Music introMusic = new Music("introMusic.mp3", true);
 		introMusic.start();
@@ -86,7 +86,9 @@ public class DynamicBeat extends JFrame {
 		trackList.add(new Track("", "back7 Game.png", "back7 Start.jpg", "music7.mp3", "music7.mp3"));
 		trackList.add(new Track("", "back8 Game.png", "back8 Start.jpg", "music8.mp3", "music8.mp3"));
 		trackList.add(new Track("", "back9 Game.png", "back9 Start.jpg", "music9.mp3", "music9.mp3"));
-
+		
+		//123
+		
 		exitButton.setBounds(1245, 0, 30, 30);
 		exitButton.setBorderPainted(false);
 		exitButton.setContentAreaFilled(false);
@@ -151,7 +153,7 @@ public class DynamicBeat extends JFrame {
 				rightButton.setVisible(true);
 				easyButton.setVisible(true);
 				hardButton.setVisible(true);
-				background = new ImageIcon(Main.class.getResource("../images/mainBackground.png")).getImage();
+				background = new ImageIcon(Main.class.getResource("../images/eclipse.jpg")).getImage();
 				isMainScreen = true;
 			}
 		});
@@ -334,6 +336,8 @@ public class DynamicBeat extends JFrame {
 			}
 		});
 		add(backButton);
+		
+		
 
 		menuBar.setBounds(0, 0, 1280, 30);
 		menuBar.addMouseListener(new MouseAdapter() {
